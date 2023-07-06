@@ -241,7 +241,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   margin-bottom: 8px;
-  margin-top: 8px;
 }
 
 .sct_two-prgrf {
@@ -449,9 +448,5 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.icon_principles {
-  width: 64px;
-  height: 64px;
+  margin-bottom: 8px;
 }
