@@ -38,7 +38,31 @@ Single-colored icons can be modified like so:
   font-size: 32px;
   color: red;
 }
-========================================== */
+========================================== 
+
+.icon-Logo-1 {
+  width: 1.857421875em;
+}
+
+.icon-Logo-2 {
+  width: 1.857421875em;
+}
+
+.icon-Logo-3 {
+  width: 1.857421875em;
+}
+
+.icon-Logo-4 {
+  width: 1.857421875em;
+}
+
+.icon-Logo-5 {
+  width: 1.857421875em;
+}
+
+.icon-Logo-6 {
+  width: 1.857421875em;
+} */
 
 h1,
 h2,
@@ -286,10 +310,12 @@ img {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--white);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .personal-info {
-  padding: 32px 16px;
+  padding: 32px 0;
   color: var(--slate, #434455);
   text-align: center;
   font-size: 16px;
@@ -299,6 +325,17 @@ img {
 
 .sct_four-prgrf {
   text-align: center;
+}
+
+.personal_social-networks {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.socialnet_ico {
+  width: 40px;
+  height: 40px;
 }
 
 /* Footer */
