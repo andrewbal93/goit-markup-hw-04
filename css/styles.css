@@ -217,6 +217,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .sct_two-prgrf {
@@ -400,4 +401,20 @@ img {
   line-height: 24px;
   letter-spacing: 0.4px;
   margin-bottom: 8px;
+}
+
+.rectangle_principles {
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: var(--cloud, #F4F4FD);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon_principles {
+  width: 64px;
+  height: 64px;
 }
