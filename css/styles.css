@@ -560,7 +560,7 @@ img {
 }
 
 .modal-window-closebtn:hover,
-.modal-window-closebtn:focus.modal-window-closebtn-icon {
+.modal-window-closebtn:focus .modal-window-closebtn-icon {
   fill: #ffffff;
 }
 
