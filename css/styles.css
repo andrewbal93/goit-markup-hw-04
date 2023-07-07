@@ -588,11 +588,8 @@ img {
   color: var(--white);
   background-color: var(--darkblue);
   border: 1px solid transparent;
-  box-shadow: (
-    0px 3px 1px rgba(0, 0, 0, 0.1),
-    0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12)
-  );
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-main_sct {
@@ -630,10 +627,6 @@ img {
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.list-a:hover .project-image-paragraf {
-  transform: translateY(0%);
-}
-
 .project-image {
   position: relative;
   overflow: hidden;
@@ -652,6 +645,10 @@ img {
   width: 100%;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.list-a:hover .project-image-paragraf {
+  transform: translateY(0%);
 }
 
 /* .portfolio-projects-li img {
