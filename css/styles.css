@@ -149,20 +149,27 @@ img {
   gap: 40px;
 }
 
-.nav-link {
+.nav-link,
+.nav-link-active {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--darkblue);
+  color: var(--navy-blue);
   padding: 24px 0;
   display: block;
   position: relative;
 }
 
-.nav-link::after {
+.nav-link-active {
+  color: var(--darkblue);
+}
+
+.nav-link-active::after {
   content: '';
   position: absolute;
+  display: block;
+  width: 100%;
   left: 0;
   bottom: -1px;
   height: 4px;
@@ -186,6 +193,7 @@ img {
   color: var(--slate);
   display: block;
   padding: 24px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact:hover,
@@ -194,10 +202,6 @@ img {
 }
 
 .nav-link {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.contact {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -211,6 +215,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .sct_one-hero-title {
@@ -356,6 +361,7 @@ img {
 
 .sct_four-prgrf {
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .personal_social-networks {
@@ -622,7 +628,8 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.list-a:hover {
+.list-a:hover,
+.list-a:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -647,7 +654,8 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.list-a:hover .project-image-paragraf {
+.list-a:hover,
+.list-a:focus .project-image-paragraf {
   transform: translateY(0%);
 }
 
